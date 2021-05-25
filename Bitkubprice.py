@@ -61,7 +61,7 @@ def Ticker(COIN='THB_BTC', ALL=False):
 		data = r.json()
 	#print(data)
 	Now = datetime.datetime.now()
-	#token = 'n8RkQWX0gFlD3Ibu0HG5U6G5RS2xKNImFZE6KQqDGYM'
+	#token = 'Your token'
 	#messenger = songline.Sendline(token)
 	#messenger.sendtext('== Bot Is Ready Now! ==')
 	#messenger.sendtext(f"{COIN} 💰\nLast Price: {data[COIN]['last']} 📊\nChange: {data[COIN]['percentChange']}% 💥")
